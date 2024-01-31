@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>25+5 Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>25+5  Clock</h1>
+    <div id="settings">
+      <div id="break">
+        <h2 id="break-label">Break Length</h2>
+        <div class="buttons">
+          <button id="break-decrement">-</button>
+          <span id="break-length">5</span>
+          <button id="break-increment">+</button>
+        </div>
+      </div>
+      <div id="session">
+        <h2 id="session-label">Session Length</h2>
+        <div class="buttons">
+          <button id="session-decrement">-</button>
+          <span id="session-length">25</span>
+          <button id="session-increment">+</button>
+        </div>
+      </div>
+    </div>
+    <div id="timer">
+      <h2 id="timer-label">Session</h2>
+      <div id="time-left">25:00</div>
+    </div>
+    <div id="controls">
+      <button id="start_stop">Start/Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+    <audio id="beep" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
